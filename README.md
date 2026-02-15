@@ -215,13 +215,15 @@ To reduce data dimensionality, we subsample the frequency grid non-uniformly:
 
 Group 16 consecutive frequency bins into a single token:
 
-$$\text{Token}_k = \begin{bmatrix}
+$$
+\text{Token}_k = \begin{bmatrix}
 \Re(\tilde{d}_d[k:k+16]) \\
 \Im(\tilde{d}_d[k:k+16]) \\
 S_n^d[k:k+16] \\
 f_{\min,k}, f_{\max,k} \\
 \text{detector\_id}
-\end{bmatrix} \in \mathbb{R}^{16 \times 6}$$
+\end{bmatrix} \in \mathbb{R}^{34}
+$$
 
 Each sample has $L \approx 30$ tokens (10 per detector).
 
