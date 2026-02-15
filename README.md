@@ -777,3 +777,11 @@ Normalize: $w^{(i)} \leftarrow w^{(i)} / \sum_j w^{(j)}$
 This implementation is based on the DINGO (Deep INference for Gravitational-wave Observations) framework developed by Maximilian Dax and Stephen Green. We acknowledge the use of PyCBC (Python CBC toolkit) for waveform generation and the LALSuite library for gravitational wave analysis tools.
 
 **Citation for original DINGO work**:
+@article{dax2021realtime,
+title={Real-Time Gravitational Wave Science with Neural Posterior Estimation},
+author={Dax, Maximilian and Green, Stephen R. and Gair, Jonathan and others},
+journal={Physical Review Letters},
+volume={127},
+pages={241103},
+year={2021}
+}
